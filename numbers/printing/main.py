@@ -6,9 +6,9 @@ completed = avl_mins // mins_2_comp
 # Number of remaining minutes
 minutes = 60 % 7
 # Set the number of remaining transactions
-remaining_tasks = ass_tsks - completed
+remaining_tasks = 10 - completed
 # Set the total time needed to complete all transactions
-required_time = ass_tsks * mins_2_comp 
+required_time = 10 * 7 
 
 def calc_hrs(required_time):
     if required_time > 60:
